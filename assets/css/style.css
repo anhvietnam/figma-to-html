@@ -373,8 +373,15 @@ a {
   background: #2e2100;
   padding: 96px 0;
 }
+
+.feedback-list{
+display: flex;
+overflow: hidden;
+}
 .feedback .feedback-item {
   display: flex;
+  flex-shrink: 0;
+  
 }
 .feedback-item .avatar {
   width: 72px;
@@ -410,10 +417,11 @@ a {
 }
 .feedback-item .content {
   width: 66%;
-  margin-left: auto;
+  margin-left: 271px;
 }
+
 .feedback-item blockquote {
-  color: #fff;
+  color: #FFF;
   font-size: 2.6rem;
   font-style: italic;
   line-height: 1.54; /* 153.846% */
